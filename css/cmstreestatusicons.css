@@ -48,11 +48,11 @@
 .jstree-apple .status-modified .jstree-hovered,
 .jstree-apple .status-modified .jstree-clicked,
 .cms-tree.jstree span.badge.status-modified  {
-	background-color: #bff2d8;
-	border-color: #0cab5b;
+	background-color:#fce2d0;
+	border-color:#ff9344;
 }
 .cms-tree.jstree span.badge.status-modified  {
-	color: #0cab5b;
+	color: #ff9344;
 }
 
 /*New pages*/
@@ -60,11 +60,11 @@
 .jstree-apple .status-addedtodraft .jstree-hovered,
 .jstree-apple .status-addedtodraft .jstree-clicked,
 .cms-tree.jstree span.badge.status-addedtodraft  {
-	background-color:#fce2d0;
-	border-color:#ff9344;
+	background-color:#f8f4d0;
+	border-color:#e4b600;
 }
 .cms-tree.jstree span.badge.status-addedtodraft  {
-	color: #ff9344;
+	color: #e4b600;
 }
 
 /*Deleted*/
@@ -77,9 +77,9 @@
 .cms-tree.jstree span.badge.status-deletedonlive,
 .cms-tree.jstree span.badge.status-removedfromdraft {
 	background-color: #f9d6dd;
-	border-color: #CB1614;
+	border-color: #f0524f;
 }
 .cms-tree.jstree span.badge.status-deletedonlive,
 .cms-tree.jstree span.badge.status-removedfromdraft {
-	color: #CB1614;
+	color: #f0524f;
 }
