@@ -1,0 +1,8 @@
+---
+Name: cmstreestatusicons
+After: 'cms/*'
+---
+CMSMain:
+    extra_requirements_css:
+        silverstripe-cmstreestatusicons/css/cmstreestatusicons.css:
+            media: screen
