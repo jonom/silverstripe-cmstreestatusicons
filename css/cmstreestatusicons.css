@@ -4,6 +4,22 @@
 	padding: 2px 3px 1px !important;
 	text-shadow: none !important;
 	position: relative;
+	margin-right: 0 !important;
+}
+
+/*Always visible badge*/
+#cms-content-tools-CMSMain .cms-tree.jstree span.badge {
+	position: absolute;
+	right: 0;
+	padding: 7px 9px 7px 5px !important;
+	margin: 0 !important;
+	top: 0;
+	margin-top: 2px;
+}
+#cms-content-tools-CMSMain .cms-tree.jstree-apple a {
+	overflow: hidden;
+	display: block !important;
+	position: relative;
 }
 
 /*Icons*/
@@ -30,6 +46,7 @@
 /*Modified*/
 .cms-tree.jstree .status-modified > a .jstree-pageicon:before,
 .jstree-apple .status-modified .jstree-hovered,
+.jstree-apple .status-modified .jstree-clicked,
 .cms-tree.jstree span.badge.status-modified  {
 	background-color: #bff2d8;
 	border-color: #0cab5b;
@@ -37,9 +54,11 @@
 .cms-tree.jstree span.badge.status-modified  {
 	color: #0cab5b;
 }
+
 /*New pages*/
 .cms-tree.jstree .status-addedtodraft > a .jstree-pageicon:before,
 .jstree-apple .status-addedtodraft .jstree-hovered,
+.jstree-apple .status-addedtodraft .jstree-clicked,
 .cms-tree.jstree span.badge.status-addedtodraft  {
 	background-color:#fce2d0;
 	border-color:#ff9344;
@@ -47,11 +66,14 @@
 .cms-tree.jstree span.badge.status-addedtodraft  {
 	color: #ff9344;
 }
+
 /*Deleted*/
 .cms-tree.jstree .status-deletedonlive > a .jstree-pageicon:before,
 .cms-tree.jstree .status-removedfromdraft > a .jstree-pageicon:before,
 .jstree-apple .status-deletedonlive .jstree-hovered,
 .jstree-apple .status-removedfromdraft .jstree-hovered,
+.jstree-apple .status-deletedonlive .jstree-clicked,
+.jstree-apple .status-removedfromdraft .jstree-clicked,
 .cms-tree.jstree span.badge.status-deletedonlive,
 .cms-tree.jstree span.badge.status-removedfromdraft {
 	background-color: #f9d6dd;
